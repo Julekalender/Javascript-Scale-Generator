@@ -2,15 +2,28 @@
 <html>
 	<head>
 		<title>randomScale - Generate random scales</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	</head>
 	<body>
-		<div class="container" width="500px" height="500px">
-			<h1>Randomly generate a scale:</h1>
+		<div class=".container .container-fluid">
+			<div class=".col-lg-12 headerpic">
+				<img src="">
+			</div> <!-/header >
+			
+		</div> <!-/container >
+	<div class=".row">	
+	<div class="col-md-4">
+	</div>
+		<div class="poop col-md-4">
+			<button type="button" class="btn btn-default btn-lg bodytext center-block" value="" onclick="getRandomScale()">Generate Scale</button>
+			<br>
+			<p id='randomScale' class="bodytext"></p>
 		</div>
-		<div class="poop">
-			<button type="button" class="btn btn-default" value="" onclick="getRandomScale()">Generate Scale</button>
-			<p id='randomScale'></p>
-		</div>
+		</div> <!/middle column>
+	<div class="col-md-4">
+	</div> <! /right column>	
+	</div>	<!- /row>
 	</body>
 	<script type="text/javascript" src="randomScale.js"></script>
 </html>	

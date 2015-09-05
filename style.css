@@ -1,0 +1,20 @@
+.headertext{
+	font-family: "Abadi MT Condensed Extra Bold";
+}
+
+.bodytext{
+	font-family: "Abadi MT Condensed Light";
+}
+
+.headerpic{
+	height: 330px;
+}
+
+.poop{
+	text-align: center;
+	font-size: 30px;
+}
+
+.btn-lg{
+	font-size: 40px;
+}
