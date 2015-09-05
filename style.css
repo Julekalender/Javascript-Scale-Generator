@@ -6,15 +6,29 @@
 	font-family: "Abadi MT Condensed Light";
 }
 
+
 .headerpic{
-	height: 330px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+example.png{
+	width:100%;
+	max-width:100%;
 }
 
 .poop{
 	text-align: center;
 	font-size: 30px;
+	padding-top: 30px;
 }
 
 .btn-lg{
 	font-size: 40px;
+}
+
+.footer{
+	text-align: center;
 }
